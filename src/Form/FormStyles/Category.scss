@@ -1,0 +1,31 @@
+.category {
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px;
+    margin: 10px 0 5px 150px;
+    border-radius: 5%;
+    background-color: rgb(228, 238, 235);
+}
+
+.btn-category_edit, .btn-category_delete {
+    border: 1px solid black;
+    border-radius: 15%;
+    padding: 5px 3px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: rgb(57, 138, 204);
+    font-weight: bold;
+}
+
+.btn-category_delete {
+    background-color: rgb(153, 88, 88);
+}
+
+.btn-category_edit:hover{
+background-color: rgb(20, 108, 180);
+}
+
+.btn-category_delete:hover{
+    background-color: rgb(146, 23, 23);
+    }

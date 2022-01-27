@@ -1,0 +1,27 @@
+.category-edit {
+  position: fixed;
+  top: 25%;
+  width: 50%;
+  max-height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border: 2px solid black;
+  padding: 15px;
+  right: 15px;
+  background-color: rgb(228, 238, 235);
+}
+
+.btn-close-submit {
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 5px;
+  cursor: pointer;
+  margin: 2px;
+  background-color: rgb(51, 158, 117);
+  font-weight: bold;
+}
+
+.btn-close-submit:hover {
+  background-color: rgb(17, 129, 86);
+
+}
